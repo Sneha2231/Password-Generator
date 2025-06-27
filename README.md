@@ -79,7 +79,7 @@ open index.html  # or double-click the file
 You can host this project on **GitHub Pages**, **Netlify**, or **Vercel**.
 
 ```
-🔗 Live Demo: https://github.com/your-username/neon-password-generator
+🔗 Live Demo: https://github.com/Sneha2231/Password-Generator.git
 ```
 
 ---
