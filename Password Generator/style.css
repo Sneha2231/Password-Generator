@@ -1,0 +1,103 @@
+body {
+    background: #0f0f0f;
+    font-family: 'Courier New', monospace;
+    color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(20, 20, 20, 0.8);
+    border: 2px solid lime;
+    box-shadow: 0 0 30px lime;
+    padding: 2rem;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 450px;
+    backdrop-filter: blur(8px);
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    color: lime;
+}
+
+.output-area {
+    display: flex;
+    align-items: center;
+    background: #000;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.output-area input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: lime;
+    font-size: 1rem;
+    outline: none;
+}
+
+.output-area button {
+    background: transparent;
+    border: none;
+    color: lime;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.customizer {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.customizer label {
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+.slider-box {
+    margin-top: 1rem;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 0.3rem;
+}
+
+#generate {
+    background: lime;
+    color: #000;
+    font-weight: bold;
+    padding: 0.7rem 2rem;
+    margin-top: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 12px lime;
+    transition: transform 0.2s ease;
+}
+
+#generate:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ff00;
+}
+
+.footer {
+    margin-top: 1.5rem;
+    font-size: 0.75rem;
+    color: #aaa;
+}
+
+.footer a {
+    color: lime;
+    text-decoration: none;
+}
